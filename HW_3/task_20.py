@@ -22,4 +22,4 @@
 
 skrabble = {1:'AEIOULNSTRАВЕИНОРСТ', 2:'DGДКЛМПУ', 3:'BCMPБГЁЬЯ', 4:'FHVWYЙЫ', 5:'KЖЗХЦЧ', 8:'JXШЭЮ', 10:'QZФЩЪ'}
 w = str(input('Введите слово: ')).upper()
-print('Колличество очков за слово = ', sum([k for i in w for k, v in skrabble.items() if i in v]))
+print('Количество очков за слово = ', sum(k for i in w for k, v in skrabble.items() if i in v))
