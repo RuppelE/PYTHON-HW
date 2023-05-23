@@ -13,7 +13,7 @@ n = int(input('Введите натуральное число: '))
 x = int(input('Введите натуральное число для поиска его повторений в массиве: '))
 list_a = []
 
-for i in range (n):
+for i in range(n):
     list_a.append(random.randint(1,10))
 print(list_a)
 
